@@ -1,0 +1,5 @@
+pinba-engine (0.0.6-2~dotdeb.0) stable; urgency=low
+
+  * Initial release
+
+ -- Guillaume Plessis <gui@dotdeb.org>  Thu, 28 Jun 2012 11:16:42 +0200

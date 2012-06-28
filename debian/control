@@ -1,0 +1,27 @@
+Source: pinba-engine
+Section: database
+Priority: extra
+Maintainer: Guillaume Plessis <gui@dotdeb.org>
+Build-Depends: debhelper (>= 7.0.50~),
+               mysql-server-5.5,
+               mysql-source-5.5,
+               libmysqlclient-dev,
+               libprotobuf-dev,
+               libjudy-dev,
+               libevent-dev
+Standards-Version: 3.9.3
+Homepage: http://pinba.org/
+
+Package: pinba-mysql-5.5
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, mysql-server-core-5.5
+Breaks: pinba-mysql-engine
+Replaces: pinba-mysql-engine
+Description: Pinba plugin for MySQL 5.5
+ Pinba is a realtime monitoring/statistics server using MySQL as a read-only 
+ interface.
+ .
+ It accumulates and processes data sent over UDP by multiple processes and 
+ displays statistics in a nice human-readable form of simple "reports", also 
+ providing read-only interface to the raw data in order to make possible 
+ generation of more sophisticated reports and stats.
