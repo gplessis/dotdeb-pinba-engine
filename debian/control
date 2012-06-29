@@ -1,7 +1,7 @@
 Source: pinba-engine
 Section: database
 Priority: extra
-Maintainer: Guillaume Plessis <gui@dotdeb.org>
+Maintainer: Jean Baptiste Favre <jbfavre@dotbuntu.org>
 Build-Depends: debhelper (>= 7.0.50~),
                mysql-server-5.5,
                mysql-source-5.5,
