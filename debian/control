@@ -3,7 +3,6 @@ Section: database
 Priority: extra
 Maintainer: Guillaume Plessis <gui@dotdeb.org>
 Build-Depends: debhelper (>= 7.0.50~),
-               mysql-server-5.5,
                mysql-source-5.5,
                protobuf-compiler,
                libmysqlclient-dev,
